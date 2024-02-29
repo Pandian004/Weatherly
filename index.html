@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="x-icon/image" href="./asserts/favicon.png">
+</head>
+<body>
+   <div class="logo">
+    <a href="">Weatherly</a>
+   </div>
+   <div class="container">
+        <div class="weather-forecast">
+            <div class="search-bar">
+                <input type="text" placeholder="Search a city" id="search-city" autocomplete="off">
+                <img src="./asserts/search.png" width="25" id="search-btn">
+            </div>
+            <img src="./asserts/partly-cloudy-day.png" alt="/" id="weather-img" width="120">
+            <div class="city-info">
+                <h2 id="city">Cuddalore</h2>
+                <div class="temp">
+                    <h2 id="temp">33</h2>
+                    <h2>&#176;C</h2>
+                </div>
+            </div>
+            <div class="wind-humidity">
+                <div class="wind">
+                    <img src="./asserts/windy.png" width="50">
+                    <h3 id="wind-speed">13 km/hr</h3>
+                    <h5>Wind Speed</h5>
+                </div>
+                <div class="humidity">
+                    <img src="./asserts/humidity.png" width="50">
+                    <h3 id="humidity"> 53% </h3>
+                    <h5>Humidity</h5>
+                </div>
+            </div>
+        </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
